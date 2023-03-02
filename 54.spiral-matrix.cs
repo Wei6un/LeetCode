@@ -7,6 +7,7 @@
 // @lc code=start
 public class Solution {
     public IList<int> SpiralOrder(int[][] matrix) {
+        //TEST GIT GO        
         int width = matrix[0].Length;
         int height = matrix.Length;
         int lenght = width * height;
@@ -43,7 +44,7 @@ public class Solution {
             if (result.Count==lenght) break;
             left+=1;                        
         }
-        return result;        
+        return result;
     }
 }
 // @lc code=end
